@@ -3,9 +3,10 @@
 using namespace std;
 int main(){
 
-//input:assignment_result, mid_result,final_result
+//step1: declare input variables
 float assignment_result,mid_result,final_result;
 float assignment,mid,Final,total;
+
 const float assignment_percent=0.2;
 const float mid_percent=0.3;
 const float final_percent=0.5;
@@ -19,14 +20,15 @@ cin>>mid_result;
 cout<<"enter final_result:";
 cin>>final_result;
 
+//step2:calculate the weighted assignment
 assignment = assignment_percent * assignment_result;
 mid = mid_percent * mid_result;
 Final= final_percent * final_result;
 total=assignment+mid+Final;
 
 cout <<fixed<< setprecision(1);
+//step3:Display the total and result
 cout <<"total="<<total<<endl;
-
 cout << "result=" << (total >= 50 ? "pass" : "fail") << endl;
 
 return 0;
