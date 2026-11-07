@@ -3,6 +3,7 @@
 using namespace std;
 int main(){
 
+//input:assignment_result, mid_result,final_result
 float assignment_result,mid_result,final_result;
 float assignment,mid,Final,total;
 const float assignment_percent=0.2;
