@@ -20,6 +20,7 @@ int main () {
     total = mark20 + mark30 + mark50;
 
     // Step 4 : Print the result
+    cout << fixed << setprecision(1);
     cout << "Your final grade is " << total << '\n';
     cout << (total >= 50 ? "Passed!" : "Failed!") << endl;
 
