@@ -5,6 +5,7 @@ using namespace std;
 int main () {
     // Step 1 : Read the constants and variables
     double assignment, mid ,final,total,mark30 , mark20, mark50;
+    
      // Step 2: Read the input
     cout << "Enter assignment grade : ";
     cin >> assignment;
