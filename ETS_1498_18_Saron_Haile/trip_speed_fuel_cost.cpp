@@ -6,7 +6,7 @@ int main() {
     // Step 1: Declare variables
     double distance, fuel_consumption, price_per_liter;
     double total_time, average_speed, fuel_used, fuel_cost;
-    double hours, minutes;
+    int hours, minutes;
 
     // Step 2: Input trip details
     cout << "Enter distance in km: ";
@@ -24,7 +24,7 @@ int main() {
     cin >> price_per_liter;
 
     // Step 3: Convert travel time into hours
-    total_time = hours + minutes / 60;
+    total_time = hours + minutes / 60.0;
 
     // Step 4: Calculate average speed
     average_speed = distance / total_time;
