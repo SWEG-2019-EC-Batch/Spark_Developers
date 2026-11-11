@@ -1,11 +1,11 @@
-1) Input
+1) Input :
    Assignment (/100)
    Midterm (/100)
    final grade (/100)
-3) Output
+3) Output :
    Total Grade
    Pass / Fail
-5) process
+5) process :
    Declare variables to hold the grades and calculations
    print prompt to read the grades
    calculate the weighted marks
