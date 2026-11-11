@@ -1,1 +1,14 @@
+Input                                                 Out put                                                       
+Electricity units                                         Energy charge
+Fixed service charge =10 birr                              Service charge
+                                                           Total electricity bill
+process 
+1.	accept electricity units
+2.	calculate the energy change
+2.1	if units <=50,
+Energy=units*1.50
+2.2	else
+Energy=(50*1.50)+(units-50)*2.00
+3.	Total= Energy + Service charge
+
 
