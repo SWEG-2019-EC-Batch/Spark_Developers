@@ -1,14 +1,64 @@
-Input                                                 Out put                                                       
-Electricity units                                         Energy charge
-Fixed service charge =10 birr                              Service charge
-                                                           Total electricity bill
-process 
-1.	accept electricity units
-2.	calculate the energy change
-2.1	if units <=50,
+FOR STUDENT COURSE
+Input  
+aasignment mark out of 100
+midterm out of 100
+final exam out of 100
+ Output
+Total 
+pass/fail
+process
+1.start
+2. Declare variable for input and output by float
+3. print promt to read the inputs 
+4. Calculate total, total = (assignment mark*0.2) + (midterm*0.3) + (final exam*0.5)
+5. Determine pass or fail
+5.1. if total >=50,print pass
+5.2	else, print fail
+6. end
+
+
+FOR ELECTRIC BILL
+Input                                                                                                
+Electricity units                                       
+Fixed service charge =10 birr                        
+ Output
+Energy charge
+Total electricity bill
+Service charge
+process
+1.start
+2. Declare variable for input and output by float
+3. print promt to read electricity units
+4. Calculate the energy change
+4.1	if units <=50,
 Energy=units*1.50
-2.2	else
+4.2	else
 Energy=(50*1.50)+(units-50)*2.00
-3.	Total= Energy + Service charge
+5.Total= Energy + Service charge
+6. print Total
+7. end 
+
+
+FOR TRIP SPEED
+Input                                                                                                
+Distance in km                                     
+Time travle in hour
+Time travle in minutes
+fule use per 100km
+fule price per liter³
+ Output
+average speed
+fule used
+fuel cost
+process
+1.start
+2. Declare variable for input and output by double and int
+3. print promt to read electricity units
+4. Calculate the average 
+4.1 speed = distsnce/time
+4.2 fule = (distance*fuelrate)/100
+4.3 cost = fuel* price
+5. print outputs
+6. end
 
 
