@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
+
+//declare input variable
+
     float distance, travel_time, price_per_liter;
     float fuel_per_100km, fuel_used;
     int hours, minutes;
@@ -23,6 +26,7 @@ int main() {
     cout << "Enter fuel use per 100 km: ";
     cin >> fuel_per_100km;
 
+//convert travel time from hour and minutes to hours
     travel_time = hours + minutes / 60.0;
 
     speed = distance / travel_time;
@@ -31,6 +35,7 @@ int main() {
 
     fuel_cost = price_per_liter * fuel_used;
 
+//display results with two decimal places
     cout << fixed << setprecision(2);
 
     cout << "Speed: " << speed << " km/h" << endl;
