@@ -14,7 +14,8 @@ int main() {
     cout << "Enter travel time (hours): ";
     cin >> hours;
 
-    cout << "Enter travel time (minutes): ";
+    cout << "Enter travel time 
+(minutes): ";
     cin >> minutes;
 
     cout << "Distance: ";
@@ -26,14 +27,14 @@ int main() {
     cout << "Enter fuel use per 100 km: ";
     cin >> fuel_per_100km;
 
-//convert travel time from hour and minutes to hours
-    travel_time = hours + minutes / 60.0;
+// covert travel time from hours and minutes to hours
+  travel_time = hours + minutes / 60.0;
 
-    speed = distance / travel_time;
+  speed = distance / travel_time;
 
-    fuel_used = (distance / 100) * fuel_per_100km;
+  fuel_used = (distance / 100) *     fuel_per_100km;
 
-    fuel_cost = price_per_liter * fuel_used;
+  fuel_cost = price_per_liter * fuel_used;
 
 //display results with two decimal places
     cout << fixed << setprecision(2);
