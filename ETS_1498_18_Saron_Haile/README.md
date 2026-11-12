@@ -9,7 +9,7 @@ Output:
 - total_mark 
 - Pass/Fail status
 
-B. Process
+B. Process:
 1. Start the program.
 2. Declare the required double variables.
 3. Read the assignment, midterm, and final exam marks from the user.
@@ -31,7 +31,7 @@ Outputs:
 - service_charge_value 
 - total_bill
 
-  B. Process:
+B. Process:
 1. Start the program.
 2. Declare an integer variable units to store the electricity units consumed.
 3. Declare double variables energy_charge and total_bill, and a constant service_charge_value.
@@ -46,19 +46,19 @@ Outputs:
 
     IPO of trip fuel and fuel cost
    
-A. Inputs
+A. Inputs:
 - distance
 - hours
 - minutes
 - fuel_consumption
 - price_per_liter
 
-   Outputs
+   Outputs:
 - average_speed 
 - fuel_used
 - fuel_cost
 
-B. Process
+B. Process:
 1. Start the program.
 2. Declare variables for distance, hours, minutes, fuel consumption, fuel price, total time, average speed, fuel used, and fuel cost.
 3. Read the trip distance, hours, minutes, fuel consumption, and price per liter from the user.
