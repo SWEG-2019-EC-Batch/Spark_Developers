@@ -1,11 +1,13 @@
   IPO of student course total
+  
 A. Input:
 - assignment_mark
 - midterm_mark 
 - final_exam_mark 
 Output:
 - total_mark 
-- Pass/Fail status 
+- Pass/Fail status
+
 B. Process
 1. Start the program.
 2. Declare the required double variables.
@@ -19,13 +21,15 @@ B. Process
 10. End the program.
 
     IPO of electric bill
+    
 A. Inputs:
 - units 
 Outputs:
 - energy_charge 
 - service_charge_value 
-- total_bill 
-B. Process:
+- total_bill
+
+  B. Process:
 1. Start the program.
 2. Declare an integer variable units to store the electricity units consumed.
 3. Declare double variables energy_charge and total_bill, and a constant service_charge_value.
@@ -39,16 +43,19 @@ B. Process:
 9. End the program.
 
     IPO of trip fuel and fuel cost
+   
 A. Inputs
 - distance
 - hours
 - minutes
 - fuel_consumption
 - price_per_liter
+
    Outputs
 - average_speed 
 - fuel_used
 - fuel_cost
+
 B. Process
 1. Start the program.
 2. Declare variables for distance, hours, minutes, fuel consumption, fuel price, total time, average speed, fuel used, and fuel cost.
