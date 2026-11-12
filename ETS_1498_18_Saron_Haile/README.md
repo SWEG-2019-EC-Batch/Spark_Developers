@@ -3,7 +3,8 @@
 A. Input:
 - assignment_mark
 - midterm_mark 
-- final_exam_mark 
+- final_exam_mark
+
 Output:
 - total_mark 
 - Pass/Fail status
@@ -23,7 +24,8 @@ B. Process
     IPO of electric bill
     
 A. Inputs:
-- units 
+- units
+
 Outputs:
 - energy_charge 
 - service_charge_value 
