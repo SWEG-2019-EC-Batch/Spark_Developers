@@ -1,11 +1,11 @@
   IPO of student course total
 A. Input:
-- assignment_mark – the mark obtained in the assignment.
-- midterm_mark – the mark obtained in the midterm exam.
-- final_exam_mark – the mark obtained in the final exam.
+- assignment_mark
+- midterm_mark 
+- final_exam_mark 
 Output:
-- total_mark – the total weighted mark, displayed to one decimal place.
-- Pass/Fail status – displays Pass if the total mark is 50 or above; otherwise, displays Fail.
+- total_mark 
+- Pass/Fail status 
 B. Process
 1. Start the program.
 2. Declare the required double variables.
@@ -20,11 +20,11 @@ B. Process
 
     IPO of electric bill
 A. Inputs:
-- units – number of electricity units (kWh) used in a month (whole number).
+- units 
 Outputs:
-- energy_charge – cost of electricity consumed.
-- service_charge_value – fixed service charge of 10 birr.
-- total_bill – total amount to be paid.
+- energy_charge 
+- service_charge_value 
+- total_bill 
 B. Process:
 1. Start the program.
 2. Declare an integer variable units to store the electricity units consumed.
@@ -40,15 +40,15 @@ B. Process:
 
     IPO of trip fuel and fuel cost
 A. Inputs
-- distance – distance of the trip in kilometers.
-- hours – travel time in hours.
-- minutes – additional travel time in minutes.
-- fuel_consumption – car's fuel consumption in liters per 100 km.
-- price_per_liter – price of one liter of fuel in birr.
+- distance
+- hours
+- minutes
+- fuel_consumption
+- price_per_liter
    Outputs
-- average_speed – average speed in km/h.
-- fuel_used – total fuel consumed in liters.
-- fuel_cost – total cost of the fuel in birr.
+- average_speed 
+- fuel_used
+- fuel_cost
 B. Process
 1. Start the program.
 2. Declare variables for distance, hours, minutes, fuel consumption, fuel price, total time, average speed, fuel used, and fuel cost.
